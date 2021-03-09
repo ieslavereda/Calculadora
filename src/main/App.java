@@ -13,8 +13,10 @@ public class App {
 			public void run() {
 				try {
 					VistaPrincipal frame = new VistaPrincipal();
-					Controlador controlador = new Controlador(frame);
+					
+					Controlador controlador = new Controlador(frame);					
 					controlador.go();
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

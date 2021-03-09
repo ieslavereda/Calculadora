@@ -128,84 +128,33 @@ public class VistaPrincipal extends JFrame {
 		panelIzquierdo.setLayout(new GridLayout(4, 3, 2, 2));
 
 		btn9 = new JButton("9");
-		btn9.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				addNumber(9);
-			}
-		});
 		panelIzquierdo.add(btn9);
 
 		btn8 = new JButton("8");
-		btn8.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				addNumber(8);
-			}
-		});
 		panelIzquierdo.add(btn8);
 
 		btn7 = new JButton("7");
-		btn7.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				addNumber(7);
-			}
-		});
 		panelIzquierdo.add(btn7);
 
 		btn6 = new JButton("6");
-		btn6.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				addNumber(6);
-			}
-		});
 		panelIzquierdo.add(btn6);
 
 		btn5 = new JButton("5");
-		btn5.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				addNumber(5);
-			}
-		});
 		panelIzquierdo.add(btn5);
 
 		btn4 = new JButton("4");
-		btn4.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				addNumber(4);
-			}
-		});
 		panelIzquierdo.add(btn4);
 
 		btn3 = new JButton("3");
-		btn3.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				addNumber(3);
-			}
-		});
 		panelIzquierdo.add(btn3);
 
 		btn2 = new JButton("2");
-		btn2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				addNumber(2);
-			}
-		});
 		panelIzquierdo.add(btn2);
 
 		btn1 = new JButton("1");
 		panelIzquierdo.add(btn1);
 
 		btnPlusMinus = new JButton("+/-");
-		btnPlusMinus.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				if (!txtFieldDisplay.getText().equals("0")) {
-					if (txtFieldDisplay.getText().startsWith("-")) {
-						txtFieldDisplay.setText(txtFieldDisplay.getText().substring(1));
-					} else {
-						txtFieldDisplay.setText("-" + txtFieldDisplay.getText());
-					}
-				}
-			}
-		});
 		panelIzquierdo.add(btnPlusMinus);
 
 		btn0 = new JButton("0");
